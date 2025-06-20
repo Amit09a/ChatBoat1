@@ -3,7 +3,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 import torch
 
-# Load Hugging Face API key (optional)
+# Load Hugging Face API key 
 load_dotenv()
 hf_api_key = os.getenv("HUGGINGFACE_API_KEY")
 print("Hugging Face Key:", hf_api_key if hf_api_key else "Not Found")
